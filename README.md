@@ -59,7 +59,7 @@ sudo apt install \
 기본 로그 저장 경로는 아래와 같습니다.
 
 ```
-~/.local/b16/log
+cd ~/.local/b16/log
 ```
 
 ---
