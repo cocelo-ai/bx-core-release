@@ -56,7 +56,7 @@ sudo apt install ./bx-core-release/b16-core_0.1.0-2_arm64.deb
 기본 로그 저장 경로는 아래와 같습니다.
 
 ```
-~/.local/b16/log
+cd ~/.local/b16/log
 ```
 
 ---
