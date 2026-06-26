@@ -40,13 +40,13 @@ ssh cocelo@XXXX    # XXXX = Wi-Fi SSID와 동일한 태그
 
 ```bash
 rm -rf bx-core-release
-git clone -b b16-core_0.1.7-1_arm64 --single-branch https://github.com/cocelo-ai/bx-core-release.git
+git clone -b b16-core_0.1.7-6_arm64 --single-branch https://github.com/cocelo-ai/bx-core-release.git
 ```
 
 #### 2 — 설치
 
 ```bash
-sudo apt install ./bx-core-release/b16-core_0.1.7-1_arm64.deb
+sudo apt install ./bx-core-release/b16-core_0.1.7-6_arm64.deb
 ```
 
 ---
