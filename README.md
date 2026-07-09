@@ -39,17 +39,14 @@ ssh cocelo@XXXX    # XXXX = Wi-Fi SSID와 동일한 태그
 #### 1 — 다운로드
 
 ```bash
-rm -rf fx-core-release
-git clone -b b16-core_<펌웨어_버전>_arm64 \
-  --single-branch \
-  https://github.com/cocelo-ai/fx-core-release.git
+rm -rf bx-core-release
+git clone -b b16-core_0.1.8-1_arm64 --single-branch https://github.com/cocelo-ai/bx-core-release.git
 ```
 
 #### 2 — 설치
 
 ```bash
-sudo apt install \
-  ./fx-core-release/b16-core_<펌웨어_버전>_arm64.deb
+sudo apt install ./bx-core-release/b16-core_0.1.8-1_arm64.deb
 ```
 
 ---
